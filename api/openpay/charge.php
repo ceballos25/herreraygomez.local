@@ -139,7 +139,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             'redirect_url' => $d['payment_method']['url'] ?? $d['redirect_url'] ?? null,
         ]);
     } else {
-        echo json_encode($d ?: ['description' => 'Error en OpenPay']);
+        echo json_encode($d ?: ['description' => 'Error en Openpay']);
     }
     exit;
 }

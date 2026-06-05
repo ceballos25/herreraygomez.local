@@ -21,7 +21,7 @@ export function renderCheckoutSummary() {
       <div class="payment-method-info mt-3 p-3 rounded">
         <div class="d-flex align-items-center gap-2">
           <i class="bi bi-bank2 fs-4 text-primary"></i>
-          <div><small class="fw-medium d-block">Pago con PSE</small><small class="text-muted">Redirección a pasarela OpenPay</small></div>
+          <div><small class="fw-medium d-block">Pago con PSE</small><small class="text-muted">Redirección a pasarela Openpay</small></div>
         </div>
       </div>
     </div>`;

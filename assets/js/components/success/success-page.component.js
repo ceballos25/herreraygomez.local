@@ -9,7 +9,7 @@ export function mountThankYouPage() {
             <div class="spinner-border text-primary" role="status">
               <span class="visually-hidden">Confirmando pago...</span>
             </div>
-            <p class="mt-3 text-muted">Confirmando tu pago con OpenPay...</p>
+            <p class="mt-3 text-muted">Confirmando tu pago con Openpay...</p>
           </div>
         </div>
       </div>

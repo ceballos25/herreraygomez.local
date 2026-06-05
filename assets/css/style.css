@@ -1502,6 +1502,57 @@ img { max-width: 100%; height: auto; }
 .breadcrumb { font-size: 0.875rem; }
 .breadcrumb-item a { color: var(--text-secondary); }
 
+.legal-page {
+  max-width: 820px;
+  margin: 0 auto;
+}
+
+.legal-page-header {
+  margin-bottom: 2rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.legal-page-date {
+  color: var(--text-secondary);
+  font-size: 0.95rem;
+  margin: 0.5rem 0 0;
+}
+
+.legal-page-body {
+  color: var(--text-primary);
+  line-height: 1.75;
+}
+
+.legal-section + .legal-section {
+  margin-top: 2rem;
+}
+
+.legal-section h2 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-bottom: 0.75rem;
+  color: var(--text-primary);
+}
+
+.legal-section p {
+  color: var(--text-secondary);
+  margin-bottom: 0.75rem;
+}
+
+.legal-section p:last-child {
+  margin-bottom: 0;
+}
+
+.footer-bottom a {
+  color: var(--text-secondary);
+  text-decoration: none;
+}
+
+.footer-bottom a:hover {
+  color: var(--primary);
+}
+
 .modal-content {
   background: var(--bg-card);
   border: 1px solid var(--border-color);

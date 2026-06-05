@@ -39,7 +39,7 @@ export function renderOrderSummary({ orderId, chargeId, order, pending = false }
       <div class="order-details-card mt-4">
         <h5 class="mb-3"><i class="bi bi-receipt me-2"></i>Resumen del pedido</h5>
         <p class="mb-1"><strong>Orden:</strong> <code>${orderId}</code></p>
-        <p class="mb-1"><strong>Referencia OpenPay:</strong> <code>${chargeId || '—'}</code></p>
+        <p class="mb-1"><strong>Referencia Openpay:</strong> <code>${chargeId || '—'}</code></p>
         ${order.amount ? `<p class="mb-3"><strong>Total pagado:</strong> <span class="text-primary fs-5">${CatalogService.formatPrice(order.amount)}</span></p>` : ''}
         ${renderOrderItems(order.items)}
         ${renderShipping(customer)}

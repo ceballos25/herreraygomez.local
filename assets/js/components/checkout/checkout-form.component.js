@@ -1,3 +1,5 @@
+import { ROUTES } from '../../config/constants.js';
+
 export function renderCheckoutForm() {
   return `
     <div class="checkout-form-card">
@@ -30,13 +32,13 @@ export function renderCheckoutForm() {
         </div>
         <div class="form-check mt-4">
           <input class="form-check-input" type="checkbox" id="terms" name="terms" required>
-          <label class="form-check-label" for="terms">Acepto los <a href="#">términos y condiciones</a> y la <a href="#">política de privacidad</a> *</label>
+          <label class="form-check-label" for="terms">Acepto los <a href="${ROUTES.terms}" target="_blank" rel="noopener">términos y condiciones</a> y la <a href="${ROUTES.privacy}" target="_blank" rel="noopener">política de privacidad</a> *</label>
         </div>
         <button type="submit" class="btn btn-primary btn-lg w-100 mt-4" id="checkout-submit">
           <i class="bi bi-shield-lock me-2"></i>Pagar con PSE
         </button>
-        <p class="text-muted text-center small mt-3"><i class="bi bi-lock-fill"></i> Tu pago es procesado de forma segura por OpenPay</p>
-        <p class="text-muted text-center small mt-1 mb-0"><i class="bi bi-info-circle"></i> Serás redirigido a la pasarela PSE de OpenPay para completar el pago.</p>
+        <p class="text-muted text-center small mt-3"><i class="bi bi-lock-fill"></i> Tu pago es procesado de forma segura por Openpay</p>
+        <p class="text-muted text-center small mt-1 mb-0"><i class="bi bi-info-circle"></i> Serás redirigido a la pasarela PSE de Openpay para completar el pago.</p>
       </form>
     </div>`;
 }

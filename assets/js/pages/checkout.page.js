@@ -118,7 +118,7 @@ export const CheckoutPage = {
       if (result.success && result.redirectUrl) {
         sessionStorage.setItem(APP_CONFIG.storage.lastOrder, JSON.stringify({ ...orderData, chargeId: result.chargeId, status: result.status }));
         if (result.isOpenPayGateway) {
-          showToast('Redirigiendo a la pasarela OpenPay PSE...', 'info');
+          showToast('Redirigiendo a la pasarela Openpay PSE...', 'info');
           window.location.replace(result.redirectUrl);
         } else {
           showToast('Modo demo: simulando pago...', 'info');

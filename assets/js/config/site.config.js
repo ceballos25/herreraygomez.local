@@ -38,6 +38,8 @@ export const SITE = {
       { label: 'Devoluciones', href: '#' },
       { label: 'Garantías', href: '#' },
       { label: 'Preguntas frecuentes', href: '#' },
+      { label: 'Términos y condiciones', href: ROUTES.terms },
+      { label: 'Política de privacidad', href: ROUTES.privacy },
       { label: 'Contacto', href: '#contacto' }
     ]
   }
@@ -49,7 +51,9 @@ export const PAGE_LAYOUT = {
   'product-detail': { navbar: 'standard', footer: 'minimal', loading: true, floats: true },
   cart: { navbar: 'standard', footer: 'minimal', loading: false, floats: true },
   checkout: { navbar: 'checkout', footer: 'checkout', loading: false, floats: false },
-  success: { navbar: 'minimal', footer: 'minimal', loading: false, floats: true }
+  success: { navbar: 'minimal', footer: 'minimal', loading: false, floats: true },
+  privacy: { navbar: 'standard', footer: 'minimal', loading: false, floats: true },
+  terms: { navbar: 'standard', footer: 'minimal', loading: false, floats: true }
 };
 
 export const DEFAULT_LAYOUT = {

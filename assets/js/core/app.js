@@ -13,6 +13,8 @@ import { ProductDetailPage } from '../pages/product-detail.page.js';
 import { CartPage } from '../pages/cart.page.js';
 import { CheckoutPage } from '../pages/checkout.page.js';
 import { SuccessPage } from '../pages/success.page.js';
+import { PrivacyPage } from '../pages/privacy.page.js';
+import { TermsPage } from '../pages/terms.page.js';
 
 const PAGE_REGISTRY = {
   home: HomePage,
@@ -20,7 +22,9 @@ const PAGE_REGISTRY = {
   'product-detail': ProductDetailPage,
   cart: CartPage,
   checkout: CheckoutPage,
-  success: SuccessPage
+  success: SuccessPage,
+  privacy: PrivacyPage,
+  terms: TermsPage
 };
 
 export function initApp() {

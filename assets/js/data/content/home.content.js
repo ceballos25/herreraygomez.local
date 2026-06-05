@@ -28,7 +28,7 @@ export const HOME_CONTENT = {
   benefits: [
     { icon: 'bi-truck', title: 'Envío Express', text: 'Entrega en 24-48h en ciudades principales. Gratis en compras superiores a $500.000.' },
     { icon: 'bi-shield-check', title: 'Garantía Oficial', text: 'Todos nuestros productos cuentan con garantía del fabricante y soporte técnico.' },
-    { icon: 'bi-credit-card', title: 'Pago Seguro PSE', text: 'Paga de forma segura con PSE desde tu cuenta bancaria. Integración OpenPay certificada.' },
+    { icon: 'bi-credit-card', title: 'Pago Seguro PSE', text: 'Paga de forma segura con PSE desde tu cuenta bancaria. Integración Openpay certificada.' },
     { icon: 'bi-headset', title: 'Soporte 24/7', text: 'Equipo de expertos disponible por WhatsApp, email y teléfono para ayudarte.' }
   ],
   sections: {

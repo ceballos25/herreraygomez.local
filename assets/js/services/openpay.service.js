@@ -65,7 +65,7 @@ export const OpenPayService = {
     }));
 
     if (this.config.demoMode) {
-      console.warn('[OpenPay] Modo demo — no redirige a pasarela real');
+      console.warn('[Openpay] Modo demo — no redirige a pasarela real');
       return this.simulatePSEPayment(payload);
     }
 
@@ -88,23 +88,23 @@ export const OpenPayService = {
       if (!response.ok) {
         const msg = data.description || data.message || data.error || 'Error al procesar el pago';
         const code = data.error_code;
-        const detail = code ? `${msg} (OpenPay ${code})` : msg;
+        const detail = code ? `${msg} (Openpay ${code})` : msg;
         if (String(msg).includes('YOUR_MERCHANT') || String(msg).includes('config.php')) {
-          throw new OpenPayError('CONFIG_ERROR', 'Configura api/openpay/config.php con tus credenciales OpenPay.');
+          throw new OpenPayError('CONFIG_ERROR', 'Configura api/openpay/config.php con tus credenciales Openpay.');
         }
         if (code === 1001 && /CheckoutData failed/i.test(msg)) {
           throw new OpenPayError('CHECKOUT_DATA',
-            'OpenPay rechazó los datos del checkout. Verifica currency COP y campos del customer.');
+            'Openpay rechazó los datos del checkout. Verifica currency COP y campos del customer.');
         }
         if (code === 3013 || code === 1004 || code === 1017 || /not available/i.test(msg)) {
           throw new OpenPayError('PSE_UNAVAILABLE',
-            'PSE no habilitado en tu comercio OpenPay (error 3013). Escribe a soporte@openpay.co con tu merchant_id para activar PSE en sandbox.');
+            'PSE no habilitado en tu comercio Openpay (error 3013). Escribe a soporte@openpay.co con tu merchant_id para activar PSE en sandbox.');
         }
         throw new OpenPayError(code || 'API_ERROR', detail);
       }
 
       const pseUrl = data.redirect_url || data.payment_method?.url || data.payment_method?.redirect_url;
-      if (!pseUrl) throw new OpenPayError('NO_REDIRECT_URL', 'OpenPay no devolvió URL de pago PSE');
+      if (!pseUrl) throw new OpenPayError('NO_REDIRECT_URL', 'Openpay no devolvió URL de pago PSE');
 
       return { success: true, chargeId: data.id, orderId: payload.order_id, redirectUrl: pseUrl, status: data.status, isOpenPayGateway: true };
     } catch (error) {

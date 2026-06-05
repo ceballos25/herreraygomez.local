@@ -8,7 +8,7 @@ export function mountCheckoutLoader() {
           <span class="visually-hidden">Procesando...</span>
         </div>
         <h5>Procesando tu pago</h5>
-        <p class="text-muted mb-0">Conectando con OpenPay PSE...</p>
+        <p class="text-muted mb-0">Conectando con Openpay PSE...</p>
         <p class="text-muted small">No cierres esta ventana</p>
       </div>
     </div>`);

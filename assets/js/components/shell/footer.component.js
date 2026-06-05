@@ -17,7 +17,7 @@ const TEMPLATES = {
         <li><i class="bi bi-telephone me-2"></i>${contact.phone}</li>
         <li><i class="bi bi-clock me-2"></i>${contact.hours}</li>
       </ul><div class="payment-icons"><i class="bi bi-bank2" title="PSE"></i><i class="bi bi-credit-card" title="Tarjetas"></i><i class="bi bi-shield-lock" title="Pago seguro"></i></div></div>
-    </div><div class="footer-bottom"><p>&copy; ${SITE.year} ${SITE.brand}. Todos los derechos reservados.</p></div></div></footer>`;
+    </div><div class="footer-bottom"><p>&copy; ${SITE.year} ${SITE.brand}. Todos los derechos reservados. <a href="${ROUTES.terms}">Términos y condiciones</a> · <a href="${ROUTES.privacy}">Política de privacidad</a></p></div></div></footer>`;
   },
   minimal() {
     return `<footer class="footer-main"><div class="container"><div class="footer-bottom mt-0 border-0">
@@ -26,7 +26,7 @@ const TEMPLATES = {
   },
   checkout() {
     return `<footer class="footer-main"><div class="container"><div class="footer-bottom mt-0 border-0">
-      <p>&copy; ${SITE.year} ${SITE.brand} — Pago seguro con OpenPay</p>
+      <p>&copy; ${SITE.year} ${SITE.brand} — Pago seguro con Openpay</p>
     </div></div></footer>`;
   },
   none: () => ''

@@ -31,5 +31,7 @@ export const ROUTES = {
   productDetail: 'product-detail.html',
   cart: 'cart.html',
   checkout: 'checkout.html',
-  success: 'success.html'
+  success: 'success.html',
+  privacy: 'privacy.html',
+  terms: 'terms.html'
 };
