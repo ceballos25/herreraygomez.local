@@ -202,4 +202,8 @@ OpenPay enviará notificaciones cuando el pago cambie de estado (`charge.succeed
 
 ## Licencia
 
-Proyecto desarrollado para Herrera y Gomez. Todos los derechos reservados.
+Este proyecto es de uso gratuito bajo atribución.
+
+Se permite el uso, modificación y distribución y comercialización del software, siempre y cuando se otorgue el debido crédito a Cristian Ceballos como autor originale del proyecto.
+
+© 2026 Cristian Ceballos. Todos los derechos reservados.
