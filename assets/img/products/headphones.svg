@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="600" viewBox="0 0 600 600" role="img" aria-label="Audífonos">
+  <defs><linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#1f0a18"/><stop offset="100%" stop-color="#2d1025"/></linearGradient></defs>
+  <rect width="600" height="600" fill="url(#bg)"/>
+  <path d="M200 280 Q200 180 300 180 Q400 180 400 280" fill="none" stroke="#ec4899" stroke-width="8" stroke-linecap="round"/>
+  <rect x="175" y="270" width="50" height="80" rx="12" fill="#831843" stroke="#ec4899" stroke-width="3"/>
+  <rect x="375" y="270" width="50" height="80" rx="12" fill="#831843" stroke="#ec4899" stroke-width="3"/>
+  <text x="300" y="420" text-anchor="middle" fill="#f9a8d4" font-family="Inter,Arial,sans-serif" font-size="22" font-weight="600">Audífonos</text>
+</svg>

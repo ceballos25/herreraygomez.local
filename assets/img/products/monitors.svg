@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="600" viewBox="0 0 600 600" role="img" aria-label="Monitores">
+  <defs><linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#0a1a1f"/><stop offset="100%" stop-color="#0f2d3d"/></linearGradient></defs>
+  <rect width="600" height="600" fill="url(#bg)"/>
+  <rect x="120" y="160" width="360" height="220" rx="8" fill="#0f172a" stroke="#06b6d4" stroke-width="3"/>
+  <rect x="140" y="180" width="320" height="180" rx="2" fill="#164e63" opacity="0.3"/>
+  <rect x="270" y="385" width="60" height="40" fill="#334155"/>
+  <rect x="220" y="425" width="160" height="12" rx="4" fill="#475569"/>
+  <text x="300" y="490" text-anchor="middle" fill="#67e8f9" font-family="Inter,Arial,sans-serif" font-size="22" font-weight="600">Monitores</text>
+</svg>

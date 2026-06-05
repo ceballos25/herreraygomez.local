@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="600" viewBox="0 0 600 600" role="img" aria-label="Teclados">
+  <defs><linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#1a1508"/><stop offset="100%" stop-color="#2d2510"/></linearGradient></defs>
+  <rect width="600" height="600" fill="url(#bg)"/>
+  <rect x="100" y="250" width="400" height="120" rx="10" fill="#292524" stroke="#f59e0b" stroke-width="3"/>
+  <g fill="#78716c">
+    <rect x="120" y="270" width="30" height="30" rx="4"/><rect x="160" y="270" width="30" height="30" rx="4"/><rect x="200" y="270" width="30" height="30" rx="4"/>
+    <rect x="240" y="270" width="30" height="30" rx="4"/><rect x="280" y="270" width="30" height="30" rx="4"/><rect x="320" y="270" width="30" height="30" rx="4"/>
+    <rect x="120" y="310" width="30" height="30" rx="4"/><rect x="160" y="310" width="30" height="30" rx="4"/><rect x="200" y="310" width="80" height="30" rx="4"/>
+    <rect x="290" y="310" width="30" height="30" rx="4" fill="#f59e0b" opacity="0.6"/>
+  </g>
+  <text x="300" y="430" text-anchor="middle" fill="#fcd34d" font-family="Inter,Arial,sans-serif" font-size="20" font-weight="600">Teclados Mecánicos</text>
+</svg>

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="500" viewBox="0 0 700 500" role="img" aria-label="Setup gaming premium">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0e17"/>
+      <stop offset="50%" stop-color="#1a1f3a"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="50%" y1="0%" x2="50%" y2="100%">
+      <stop offset="0%" stop-color="#0066ff" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#0066ff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="700" height="500" fill="url(#bg)" rx="20"/>
+  <ellipse cx="350" cy="200" rx="200" ry="120" fill="url(#glow)"/>
+  <rect x="120" y="120" width="460" height="260" rx="12" fill="#151b2b" stroke="#0066ff" stroke-width="2" opacity="0.8"/>
+  <rect x="140" y="140" width="420" height="200" rx="4" fill="#0a1628"/>
+  <rect x="280" y="380" width="140" height="12" rx="4" fill="#334155"/>
+  <rect x="200" y="320" width="80" height="50" rx="6" fill="#1e293b" stroke="#6366f1" stroke-width="1"/>
+  <ellipse cx="520" cy="340" rx="30" ry="45" fill="#1e293b" stroke="#10b981" stroke-width="1"/>
+  <text x="350" y="460" text-anchor="middle" fill="#64748b" font-family="Inter,Arial,sans-serif" font-size="14">Herrera y Gomez  Setup Premium</text>
+</svg>
