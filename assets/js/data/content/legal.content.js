@@ -9,7 +9,7 @@ export const PRIVACY_CONTENT = {
     {
       title: 'Introducción',
       paragraphs: [
-        'En Herrera y Gomez (https://herreraygomez.com), nos comprometemos a proteger y respetar tu privacidad y tus datos personales. Esta política describe cómo recopilamos, almacenamos, procesamos y protegemos tus datos personales de acuerdo con lo establecido en la Ley 1581 de 2012, el Decreto 1377 de 2013 y las normas que lo adicionen o modifiquen.'
+        'En Herrera y Gomez (https://tienda.herreraygomez.com), nos comprometemos a proteger y respetar tu privacidad y tus datos personales. Esta política describe cómo recopilamos, almacenamos, procesamos y protegemos tus datos personales de acuerdo con lo establecido en la Ley 1581 de 2012, el Decreto 1377 de 2013 y las normas que lo adicionen o modifiquen.'
       ]
     },
     {
