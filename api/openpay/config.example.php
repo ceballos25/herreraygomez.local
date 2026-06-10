@@ -1,7 +1,7 @@
 <?php
 return [
-    'merchant_id'  => 'YOUR_MERCHANT_ID',
-    'private_key'  => 'YOUR_PRIVATE_KEY',
+    'merchant_id'  => 'mp0l9mwos0capcyoetl3',
+    'private_key'  => 'sk_705506ea310a4838b39daa7749073675',
     'environment'  => 'sandbox',
-    'success_url'  => 'https://tudominio.com/success.html',
+    'success_url'  => 'https://tienda.herreraygomez.com/success.html',
 ];

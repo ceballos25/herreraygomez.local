@@ -80,7 +80,7 @@ export const TERMS_CONTENT = {
     {
       title: 'Introducción',
       paragraphs: [
-        'Bienvenido a Herrera y Gomez (https://herreraygomez.com). Al acceder y utilizar nuestro sitio web, aceptas cumplir con los presentes términos y condiciones. Si no estás de acuerdo con alguna parte de estos términos, te pedimos que no utilices nuestros servicios.',
+        'Bienvenido a Herrera y Gomez (https://tienda.herreraygomez.com). Al acceder y utilizar nuestro sitio web, aceptas cumplir con los presentes términos y condiciones. Si no estás de acuerdo con alguna parte de estos términos, te pedimos que no utilices nuestros servicios.',
         'Herrera y Gomez es una tienda en línea especializada en tecnología, hardware, laptops, tarjetas gráficas, monitores, periféricos gamer y equipos de oficina en Colombia.'
       ]
     },
@@ -103,7 +103,7 @@ export const TERMS_CONTENT = {
     {
       title: 'Métodos de Pago',
       paragraphs: [
-        'Los métodos de pago disponibles en el sitio web de https://herreraygomez.com son: pagos en línea (tarjeta débito y PSE) mediante la pasarela de pagos Openpay.',
+        'Los métodos de pago disponibles en el sitio web de https://tienda.herreraygomez.com son: pagos en línea (tarjeta débito y PSE) mediante la pasarela de pagos Openpay.',
         'Desde nuestro e-commerce no capturamos, almacenamos ni transmitimos datos transaccionales. Para esto contamos con los servicios de Openpay, que es una plataforma de pagos certificada que garantiza la seguridad de todas las transacciones por medio de software de encriptación, procedimientos de validación y medidas robustas de protección de datos a nivel bancario (certificación PCI nivel 1). Por eso realizar los pagos en nuestro sitio web es seguro.',
         'Si su pago es con PSE, la pasarela de pagos Openpay se encarga de comunicarlo directamente con su banco a través de ACH. Al pagar a través de este canal, está utilizando los procesos de seguridad de su propio banco, quien es el que valida su clave principal y segunda clave si es el caso.',
         'Una vez iniciado el proceso de pago, serás redirigido a la pasarela segura de Openpay para completar la transacción. La confirmación del pedido quedará sujeta a la aprobación del pago por parte de la entidad financiera correspondiente.'
