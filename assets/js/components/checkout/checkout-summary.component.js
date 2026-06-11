@@ -1,7 +1,7 @@
 import { CartService } from '../../services/cart.service.js';
 import { CatalogService } from '../../services/catalog.service.js';
 
-export function rendelrCheckoutSummary() {
+export function renderCheckoutSummary() {
   const { items, subtotal, iva, total } = CartService.getSummary();
   return `
     <div class="checkout-summary-card">
