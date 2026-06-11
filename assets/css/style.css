@@ -1113,6 +1113,25 @@ img { max-width: 100%; height: auto; }
   border: 1px solid var(--border-color);
 }
 
+.openpay-trust {
+  text-align: center;
+  padding-top: 0.5rem;
+  border-top: 1px solid var(--border-color);
+}
+
+.openpay-logo {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+.openpay-logo--sm {
+  margin: 0;
+  flex-shrink: 0;
+}
+
 #checkout-loader {
   position: fixed;
   inset: 0;

@@ -1,7 +1,7 @@
 import { CartService } from '../../services/cart.service.js';
 import { CatalogService } from '../../services/catalog.service.js';
 
-export function renderCheckoutSummary() {
+export function rendelrCheckoutSummary() {
   const { items, subtotal, iva, total } = CartService.getSummary();
   return `
     <div class="checkout-summary-card">
@@ -19,9 +19,13 @@ export function renderCheckoutSummary() {
       <hr>
       <div class="d-flex justify-content-between"><strong>Total</strong><strong class="text-primary fs-5">${CatalogService.formatPrice(total)}</strong></div>
       <div class="payment-method-info mt-3 p-3 rounded">
-        <div class="d-flex align-items-center gap-2">
-          <i class="bi bi-bank2 fs-4 text-primary"></i>
-          <div><small class="fw-medium d-block">Pago con PSE</small><small class="text-muted">Redirección a pasarela Openpay</small></div>
+        <div class="d-flex align-items-center gap-3">
+          <i class="bi bi-bank2 fs-4 text-primary flex-shrink-0"></i>
+          <div class="flex-grow-1">
+            <small class="fw-medium d-block">Pago con PSE</small>
+            <small class="text-muted">Redirección a pasarela Openpay</small>
+          </div>
+          <img src="assets/icons/logo.jpg" alt="Openpay by BBVA" class="openpay-logo openpay-logo--sm" width="100" height="25" loading="lazy">
         </div>
       </div>
     </div>`;

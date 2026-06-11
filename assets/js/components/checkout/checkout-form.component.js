@@ -37,8 +37,11 @@ export function renderCheckoutForm() {
         <button type="submit" class="btn btn-primary btn-lg w-100 mt-4" id="checkout-submit">
           <i class="bi bi-shield-lock me-2"></i>Pagar con PSE
         </button>
-        <p class="text-muted text-center small mt-3"><i class="bi bi-lock-fill"></i> Tu pago es procesado de forma segura por Openpay</p>
-        <p class="text-muted text-center small mt-1 mb-0"><i class="bi bi-info-circle"></i> Serás redirigido a la pasarela PSE de Openpay para completar el pago.</p>
+        <div class="openpay-trust mt-4">
+          <img src="assets/icons/logo.jpg" alt="Openpay by BBVA" class="openpay-logo" width="160" height="40" loading="lazy">
+          <p class="text-muted text-center small mt-2 mb-1"><i class="bi bi-lock-fill"></i> Tu pago es procesado de forma segura por Openpay</p>
+          <p class="text-muted text-center small mb-0"><i class="bi bi-info-circle"></i> Serás redirigido a la pasarela PSE de Openpay para completar el pago.</p>
+        </div>
       </form>
     </div>`;
 }
